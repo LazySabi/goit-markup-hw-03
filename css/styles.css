@@ -1,0 +1,248 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434455;
+    background-color: #ffffff;
+  }
+  
+  h1 {
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  h2 {
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  button {
+    color: #ffffff;
+    background-color: #4d5ae5;
+    transform: translate(-50%, 0);
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    line-height: 1.5;
+  }
+  
+  .button-order {
+    line-height: 1.5;
+  }
+  
+  button:active {
+    background-color: #404bbf;
+  }
+  
+  button:hover {
+    background-color: #404bbf;
+  }
+  
+  button:focus {
+    background-color: #404bbf;
+  }
+  
+  .header-link {
+    font-weight: 500;
+    color: #2e2f42;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+  }
+  
+  .header-link:hover {
+    font-weight: 500;
+    color: #404bbf;
+    text-decoration: none;
+  }
+  
+  .header-link:focus {
+    font-weight: 500;
+    color: #404bbf;
+    text-decoration: none;
+  }
+  
+  .header-link:active {
+    font-weight: 500;
+    color: #404bbf;
+    text-decoration: underline;
+  }
+  
+  .header-contacts {
+    font-style: normal;
+    color: #434455;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+  }
+  
+  .header-contacts:hover {
+    color: #404bbf;
+  }
+  
+  .header-contacts:active {
+    color: #404bbf;
+  }
+  
+  .header-contacts:focus {
+    color: #404bbf;
+  }
+  
+  .benefit-list {
+    margin-right: 24px;
+  }
+  
+  .benefit-ul {
+    margin-bottom: 97px;
+    margin-right: 132px;
+  }
+  
+  .order-box {
+    background-color: #2e2f42;
+  }
+  
+  .header-box {
+    margin: 0;
+    background-color: #ffffff;
+  }
+  
+  .logo-header-box {
+    justify-content: flex-start;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+    line-height: 1.17;
+  }
+  
+  .logo-header-box-web {
+    color: #2e2f42;
+  }
+  
+  .header-link {
+    margin-right: 40px;
+  }
+  
+  .header-contacts {
+    margin-right: 40px;
+  }
+  
+  .team-box {
+    background-color: #f4f4fd;
+  }
+  
+  .team-item-box {
+    background-color: #ffffff;
+    margin-right: 24px;
+  }
+  
+  .team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+  }
+  
+  .team-role {
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+  }
+  
+  .card-box {
+    background: #fff;
+  }
+  
+  .portfolio-box-text-head {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.2em;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+  }
+  
+  .portfolio-box-text-type {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  
+  .footer-box {
+    background-color: #2e2f42;
+  }
+  
+  .logo-footer-box {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+  }
+  
+  .logo-footer-box-web {
+    color: #f4f4fd;
+  }
+  
+  .footer-text {
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+  }
+  
+  .address {
+    font-style: normal;
+  }
+  
+  .solutions-title {
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+  }
+  
+  .benefit-list-h {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+  
+  .benefit-list-p {
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  
+  .team-h {
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+  }
+  
+  .portfolio-h {
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+  }
+  
