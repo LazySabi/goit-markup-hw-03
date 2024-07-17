@@ -13,20 +13,24 @@ body {
     line-height: 60px;
     text-align: center;
     color: #ffffff;
+    margin: 0;
   }
   
   h2 {
     font-weight: bold;
     font-size: 36px;
     text-align: center;
+    margin: 0;
   }
   
   h3 {
     font-size: 20px;
+    margin: 0;
   }
   
   ul {
     list-style-type: none;
+    margin: 0;
   }
   
   button {
@@ -38,9 +42,38 @@ body {
     cursor: pointer;
     line-height: 1.5;
   }
+
+  img {
+    display: block;
+  }
   
+  header {
+    border-bottom: 1px solid #e7e9fc;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-header-box {
+    margin-right: 76px;
+  }
+
+  .nav-list {
+    display: flex; 
+    gap: 40px;
+  }
+
   .button-order {
     line-height: 1.5;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
   }
   
   button:active {
@@ -60,8 +93,13 @@ body {
     color: #2e2f42;
     text-decoration: none;
     letter-spacing: 0.02em;
+    padding: 24px 0;
   }
   
+  .header-link:li {
+    padding: 24px 0;
+  }
+
   .header-link:hover {
     font-weight: 500;
     color: #404bbf;
@@ -85,6 +123,8 @@ body {
     color: #434455;
     text-decoration: none;
     letter-spacing: 0.02em;
+    display: flex;
+    gap: 40px;
   }
   
   .header-contacts:hover {
@@ -110,6 +150,7 @@ body {
   
   .order-box {
     background-color: #2e2f42;
+    padding: 188px 0;
   }
   
   .header-box {
@@ -219,6 +260,7 @@ body {
   .solutions-title {
     line-height: 1.07;
     letter-spacing: 0.02em;
+    max-width: 496px;
   }
   
   .benefit-list-h {
@@ -246,3 +288,9 @@ body {
     color: #2e2f42;
   }
   
+  .container {
+    display: flex;
+    width: 1158px;
+    margin: 0;
+    padding: 0 15px;
+  }
