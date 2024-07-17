@@ -31,6 +31,7 @@ body {
   ul {
     list-style-type: none;
     margin: 0;
+    padding: 0;
   }
   
   button {
@@ -141,7 +142,7 @@ body {
   
   .benefit-list {
     margin-right: 24px;
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
   }
   
   .benefit-ul {
@@ -193,7 +194,7 @@ body {
   .team-item-box {
     background-color: #ffffff;
     margin-right: 24px;
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
   }
   
@@ -346,6 +347,7 @@ body {
 
 .portfolio-box {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .card-list {
