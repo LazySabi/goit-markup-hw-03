@@ -141,11 +141,14 @@ body {
   
   .benefit-list {
     margin-right: 24px;
+    width: calc((100% - 72px) / 4);
   }
   
   .benefit-ul {
     margin-bottom: 97px;
     margin-right: 132px;
+    display: flex;
+    gap: 24px;
   }
   
   .order-box {
@@ -184,11 +187,14 @@ body {
   
   .team-box {
     background-color: #f4f4fd;
+    padding: 120px 0;
   }
   
   .team-item-box {
     background-color: #ffffff;
     margin-right: 24px;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
   }
   
   .team-name {
@@ -198,6 +204,8 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
   }
   
   .team-role {
@@ -205,6 +213,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    text-align: center;
   }
   
   .card-box {
@@ -267,6 +276,7 @@ body {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
   }
   
   .benefit-list-p {
@@ -279,6 +289,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
   }
   
   .portfolio-h {
@@ -291,6 +302,24 @@ body {
   .container {
     display: flex;
     width: 1158px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0 15px;
   }
+
+  .contacts-list-header {
+    display: flex;
+    gap: 40px;
+  }
+
+  .benefits-box {
+    padding: 120px 0;
+  }
+
+.team-item-list {
+  display: flex;
+  gap: 24px;
+}
+
+.emp-div {
+  padding: 32px 0;
+}
