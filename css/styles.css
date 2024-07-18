@@ -303,7 +303,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-bottom: 72px;
+    margin-bottom: 8px;
   }
   
   .container {
@@ -351,8 +351,7 @@ body {
 }
 
 .portfolio-box {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0 120px 0
 }
 
 .card-list {
@@ -367,4 +366,8 @@ body {
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
+}
+
+a {
+  display: inline-block;
 }
